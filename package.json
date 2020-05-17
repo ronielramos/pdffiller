@@ -15,8 +15,7 @@
     "pdf"
   ],
   "dependencies": {
-    "lodash": "~4.17.11",
-    "utf8-fdf-generator": "0.0.3"
+    "lodash": "^4.17.15"
   },
   "author": {
     "name": "John Taylor and David Baldwynn"
@@ -30,7 +29,10 @@
   "_from": "whitef0x0/pdffiller",
   "_resolved": "git://github.com/whitef0x0/pdffiller.git#dc344fd81d90d0434dcc253d9ee14e4328b680dd",
   "devDependencies": {
+    "@types/lodash": "^4.14.151",
+    "@types/node": "^14.0.1",
     "mocha": "~2.4.5",
-    "should": "~6.0.1"
+    "should": "~6.0.1",
+    "typescript": "^3.9.2"
   }
 }
